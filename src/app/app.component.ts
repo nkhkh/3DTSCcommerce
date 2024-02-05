@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { ThreeDimensionalSceneComponent } from "./three-dimensional-scene/three-dimensional-scene.component";
+import { ThreeDimensionalSceneComponent } from "./shared/components/three-dimensional-scene/three-dimensional-scene.component";
 
 
 @Component({

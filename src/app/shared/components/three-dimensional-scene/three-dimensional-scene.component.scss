@@ -1,0 +1,25 @@
+.wrapper{
+    width: 50dvw;
+    height: 50dvh;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+
+
+    canvas{
+        width: 100%;
+        height: 100%;
+    }
+}
+.texture-option{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 1%;
+    &:hover{
+        cursor: pointer;
+    }
+}
